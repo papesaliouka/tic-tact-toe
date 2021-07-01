@@ -1,0 +1,56 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(16, 151, 241);
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.players{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 18.75rem;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 7.8125rem;
+    justify-content: space-between;
+}
+
+.gameboard{
+    display: grid;
+    width: 43.75rem;
+    height: 31.25rem;
+    border: 3px solid white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gameboard div{
+    border: 1px solid rgb(16, 151, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.gameboard div:hover{
+    background-color: lightblue;
+}
+
+.mark{
+    width: 7.8125rem;
+    height: 6.25rem
+}
