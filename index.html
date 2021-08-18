@@ -17,7 +17,7 @@
             <div class="players">
                 <section>
                     <div class="player1">
-                        <h2>Player 1</h2>
+                        <h2 id="player1">Player 1</h2>
                     </div>
                     <div class="score1"><h2>0</h2></div>
                 </section>
@@ -25,20 +25,25 @@
                 <section>
                     <div class="score2"><h2>0</h2></div>
                     <div class="player2">
-                        <h2>Player 2</h2>
+                        <h2 id="player2">Player 2</h2>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <button id="restart"> Restart</button>
                     </div>
                 </section>
             </div>
             <div class="gameboard">
-                <div class="board"></div>
-                <div class="board"></div>
-                <div class="board"></div>
-                <div class="board"></div>
-                <div class="board"></div>
-                <div class="board"></div>
-                <div class="board"></div>
-                <div class="board"></div>
-                <div class="board"></div>
+                <div class="board" row='0' col='0'></div>
+                <div class="board" row='0' col='1'></div>
+                <div class="board" row='0' col='2'></div>
+                <div class="board" row='1' col='0'></div>
+                <div class="board" row='1' col='1'></div>
+                <div class="board" row='1' col='2'></div>
+                <div class="board" row='2' col='0'></div>
+                <div class="board" row='2' col='1'></div>
+                <div class="board" row='2' col='2'></div>
             </div>
         </div>
     </main>
